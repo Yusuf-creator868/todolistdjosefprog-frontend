@@ -1,0 +1,101 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #002147; /* teal-blue background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .card {
+      background-color: #999999;
+      color: rgb(235, 214, 214);
+      padding: 20px 25px;
+      border-radius: 15px;
+      max-width: 500px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    
+    .card h2 {
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+  
+    .card .meta {
+      font-size: 14px;
+      color: #bbb;
+      margin-bottom: 15px;
+    }
+  
+    ul{
+      list-style: none;
+    }
+  
+    .checkbox{
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+    
+    .yes{
+      text-decoration: line-through;
+      margin-left: -30px;
+    }
+  
+    .check{
+      height: 20px;
+      width: 20px;
+      margin-right: 20px;
+    }
+  
+    .lists{
+      margin-left: -30px;
+      display: flex;
+      align-items:flex-end; 
+      gap: 8px; 
+      margin-bottom: 10px;
+    }
+  
+    .delupd{
+      margin-left: 10px;
+  
+    }
+  
+    #texts{
+      margin-left: -10px;
+    }
+  
+    .update{
+      border-radius: 5px;
+      border: 1px solid rgb(7, 207, 57);
+      color: rgb(7, 207, 57);
+      margin-right: 10px;
+    }
+  
+    .update:hover{
+      color: white;
+      background-color: rgb(7, 207, 57);
+    }
+  
+    .delete{
+      border-radius: 5px;
+      border: 1px solid rgb(207, 37, 7);
+      color: rgb(207, 37, 7);
+    }
+  
+    .delete:hover{
+      color: white;
+      background-color: rgb(207, 37, 7);
+    }
+  
+  
+    .addbut{
+      border: 1px, solid, black;
+      border-radius: 5px;
+  
+  
+    }
+  
+    .addbut:hover{
+      color: azure;
+      background-color: #bbb;
+    }
