@@ -135,7 +135,7 @@ function handleUpdateSubmit(e) {
 
             <div className="flex items-center gap-5">
                 <input
-                    className="border-b-2 px-4 py-2 focus:outline-none w-[350px]"
+                    className="border-b-2 px-4 py-2 focus:outline-none w-[300px]"
                     type="text"
                     value={content}
                     onChange={(e) => setContent(e.target.value)}
