@@ -130,7 +130,7 @@ function handleUpdateSubmit(e) {
 
             <div className="flex flex-col items-center justify-center gap-2 max-w-[1200px] mx-auto h-screen">
 
-             <h1 className="text-3xl font-bold">Your To Do</h1>
+             <h1 className="text-3xl font-bold">Your To Do List</h1>
              <form onSubmit={editId ? handleUpdateSubmit : handleSubmit} className="flex flex-col gap-5">
 
             <div className="flex items-center gap-5">
